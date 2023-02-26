@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+body {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 550px;
+    height: 81px;
+    margin: 22px auto; 
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+   
+}
+
+
+#profile-icon { 
+    width: 32.33px;
+    height: 34px;
+    left: 18px;
+    top: 24px;
+}
+
+#logo {
+    width: 84px;
+    height: 42px;
+    left: 233px;
+    top: 20px;
+}
+
+#chat-icon {
+    width: 34px;
+    height: 34px;
+    top: 24px;
+    left: 497px;
+}
+
+
+
+#reject-btn, #match-btn {
+    width: 91.87px;
+    height: 91.87px;
+   
+    left: 171px;
+    border-radius: 50%; 
+    border: none;
+    padding: 25px;
+}
+
+#reject-btn:hover {
+    background-color: rgb(248, 194, 194); 
+}
+
+#match-btn:hover {
+    background-color: rgb(167, 248, 209); 
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 288px;
+    padding-bottom: 25px;
+
+}
+
+#card .avatar {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+#card {
+    width: 100%;
+    height: 70vh;
+    border-radius: 8px;
+}
+
+
+.character-info {
+    position: absolute;
+    color: #F8F8F8;
+    font-family: Poppins;
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+}
+
+
