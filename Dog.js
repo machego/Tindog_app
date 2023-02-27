@@ -24,7 +24,6 @@ class Character{
     }
 
     getStatusAction() {
-    
         return (!this.hasBeenLiked && this.hasBeenSwiped) ?
         `<img class="reject-btn-img" src="./images/badge-nope.png">` 
         : this.hasBeenLiked ?
