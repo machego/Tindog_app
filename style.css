@@ -4,20 +4,21 @@
 }
 
 body {
-    width: 550px;
+    width: 548px;
     margin: 0 auto;
 }
 
+/* nav */
+
 .nav {
-    width: 550px;
-    height: 81px;
+    width: 538px;
+    height: 41px;
     margin: 22px auto; 
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
    
 }
-
 
 #profile-icon { 
     width: 32.33px;
@@ -41,11 +42,11 @@ body {
 }
 
 
+/* section */
 
 #reject-btn, #match-btn {
     width: 91.87px;
     height: 91.87px;
-   
     left: 171px;
     border-radius: 50%; 
     border: none;
@@ -63,31 +64,76 @@ body {
 .action {
     display: flex;
     justify-content: space-around;
-    padding-top: 288px;
-    padding-bottom: 25px;
-
+    padding-top: 8px;
+    padding-bottom: 5px;
 }
+
+/*render() */
 
 #card .avatar {
     width: 100%;
+    height: 100%;
     border-radius: 8px;
 }
-
 
 #card {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     border-radius: 8px;
 }
 
 
-.character-info {
+.match-btn-img, .reject-btn-img{
     position: absolute;
+    top: 115px;
+    left: 485px;
+    height: 90px;
+    width: 140px;
+    transform: rotate(-28deg)
+}
+
+.character-info {
     color: #F8F8F8;
     font-family: Poppins;
     position: absolute;
-    bottom: 0px;
-    left: 110px;
+    bottom: 170px;
+    left: 510px;
+    
 }
+
+
+
+
+
+@media (min-width: 1000px) {
+    header,
+    main,
+    section {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        left: 500px;
+    }
+    
+}
+
+/*
+@media(max-width: 350px){
+    .match-btn-img, .reject-btn-img{
+     position: absolute;
+     top: 115px;
+     left: 15px;
+     height: 90px;
+     width: 140px;
+     transform: rotate(-28deg)  
+    }
+}
+*/
+
+
+
+
 
 
