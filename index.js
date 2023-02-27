@@ -47,7 +47,6 @@ function reject() {
 
 function render() {
     document.getElementById('card').innerHTML = tinDog.getCharacterHtml()
-
 }
 render()
 
